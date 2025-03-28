@@ -1,0 +1,114 @@
+@use "../abstract/variables" as variable;
+
+.contain {
+    padding: 0 15%;
+}
+.box-banner {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 1rem;
+}
+
+    .containers-card {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        gap: 0.5rem;
+        
+    }
+    .card {
+        width: 100%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-1 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.260),rgba(0, 0, 0, 0.260)), url(../img/homme-assis-batiment.jpg);
+        background-size: 100% 125%;
+    }
+    .card-2 {
+        height: 50%;
+        background-image:linear-gradient(rgba(0, 0, 0, 0.260),rgba(0, 0, 0, 0.260)), url(../img/passport.jpg);
+        background-size: 100% 150%;
+        background-position: center;
+    }
+    .card-3 {
+        height: 50%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.260),rgba(0, 0, 0, 0.260)), url(../img/montgolfiere.jpg);
+        background-size: 100% 150%;
+        background-position: center;
+    }
+    .card-2-3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        
+    }
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: variable.$color-secondary;
+        h4 {
+            margin: 0;
+        }
+    }
+
+    .feature {
+        width: 100%;
+        h2 {
+            text-align: right;
+            margin-bottom: 2rem;
+        }
+        h4{
+            margin: 0.5rem;
+        }
+        p{
+            text-align: center;
+        }
+        .containers-features {
+            
+            display: flex;
+            justify-content: center;
+            gap: 5rem;
+        }
+        img {
+            width: 25%;
+        }
+        .features {
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .get-in {
+        margin-bottom: -1rem;
+        background-image : linear-gradient(to bottom,#ffffff 50%,#000000 50%);
+    }
+    .box-get-in-touch {
+        padding: 4rem 2rem;
+        h3 {
+            color: variable.$color-secondary;
+            margin: 0 ;
+        }
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .btn-get {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+

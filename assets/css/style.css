@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato", sans-serif;
+  src: url(../../fonts/Lato/Lato-Regular.ttf);
+}
+body {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+}
+body h1 {
+  color: white;
+  font-size: 2.75rem;
+  font-weight: bold;
+}
+body h2 {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  font-size: 4rem;
+  font-weight: bold;
+}
+body h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+body h4 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+body ul {
+  list-style: none;
+  padding-left: 0;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}
+body img {
+  max-width: 30%;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url(../../fonts/Lato/Lato-Regular.ttf);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 30%;
+}
+header a {
+  color: gray;
+}
+
+.contact {
+  width: 23vw;
+  display: flex;
+  gap: 1rem;
+}
+
+footer {
+  background-color: black;
+}
+
+.foot {
+  width: 100%;
+  padding-top: 5rem;
+  border-bottom: solid 0.5px white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot img {
+  width: 30%;
+}
+.foot a {
+  color: rgb(200, 200, 200);
+}
+
+.contacts {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts .contact {
+  display: flex;
+  flex-direction: column;
+}
+.contacts img {
+  filter: invert(1);
+}
+
+.boxes {
+  margin-top: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #e7816b;
+  padding: 1rem 2rem;
+  display: flex;
+}
+.boxes img {
+  width: 17%;
+  display: flex;
+  top: 20%;
+  right: 10%;
+  position: absolute;
+}
+.boxes p {
+  color: white;
+}
+
+.btn {
+  border: solid 1px black;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  background-color: white;
+  padding: 0.75rem;
+  color: black;
+}
+
+.btn-service {
+  color: white;
+}
+
+.btn-service::after {
+  content: ">";
+  color: red;
+}
+
+.contain {
+  padding: 0 15%;
+}
+
+.box-banner {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.containers-card {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url(../img/homme-assis-batiment.jpg);
+  background-size: 100% 125%;
+}
+
+.card-2 {
+  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url(../img/passport.jpg);
+  background-size: 100% 150%;
+  background-position: center;
+}
+
+.card-3 {
+  height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.26)), url(../img/montgolfiere.jpg);
+  background-size: 100% 150%;
+  background-position: center;
+}
+
+.card-2-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.service h4 {
+  margin: 0;
+}
+
+.feature {
+  width: 100%;
+}
+.feature h2 {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+.feature h4 {
+  margin: 0.5rem;
+}
+.feature p {
+  text-align: center;
+}
+.feature .containers-features {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.feature img {
+  width: 25%;
+}
+.feature .features {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.get-in {
+  margin-bottom: -1rem;
+  background-image: linear-gradient(to bottom, #ffffff 50%, #000000 50%);
+}
+
+.box-get-in-touch {
+  padding: 4rem 2rem;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-get-in-touch h3 {
+  color: white;
+  margin: 0;
+}
+
+.btn-get {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

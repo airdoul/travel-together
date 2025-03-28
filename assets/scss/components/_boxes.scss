@@ -1,0 +1,22 @@
+@use "../abstract/variables" as variable;
+
+.boxes {
+    margin-top: 4rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: variable.$border-radius;
+    background-color: variable.$backround-color-box;
+    padding: 1rem 2rem;
+    display: flex;
+    img{
+        width: 17%;
+        display: flex;
+        top: 20%;
+        right: 10%;
+        position: absolute;
+    }
+    p {
+        color: variable.$color-secondary;
+    }     
+}

@@ -1,0 +1,33 @@
+@use "../abstract/variables" as variable;
+
+footer{
+    background-color: black;
+}
+
+.foot {
+    width: 100%;
+    padding-top: 5rem;
+    border-bottom: solid 0.5px variable.$color-secondary;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 30%;
+    }
+    a {
+        color: rgb(200, 200, 200);
+    }
+}
+.contacts {
+    width: 100%;
+    color: variable.$color-secondary;
+    display: flex;
+    justify-content: space-between;
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+        filter: invert(1);
+    }
+}
