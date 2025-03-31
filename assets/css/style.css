@@ -63,6 +63,7 @@ header a {
 .contact {
   width: 23vw;
   display: flex;
+  justify-content: end;
   gap: 1rem;
 }
 
