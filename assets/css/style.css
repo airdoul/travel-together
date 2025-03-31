@@ -258,6 +258,12 @@ footer {
   h2, h3, h4, p {
     text-align: center;
   }
+  .logodiv {
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+  }
   .logo img {
     width: 45%;
   }
@@ -270,8 +276,10 @@ footer {
     border-radius: 5px;
     padding: 3px;
     width: 30%;
+    margin-top: 2rem;
   }
   .box-banner {
+    width: 100%;
     text-align: start;
   }
   .box-banner p {
@@ -305,7 +313,7 @@ footer {
   }
   .feature .features {
     width: 100%;
-    padding: 15%;
+    padding: 2%;
   }
   .get-in {
     background-image: none;
