@@ -1,11 +1,11 @@
+@use "../abstract/variables" as variable;
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
-        width: 30%;
-    }
     a {
         color: gray;
     }
 }
+

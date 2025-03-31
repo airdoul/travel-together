@@ -1,7 +1,7 @@
 @use "../abstract/variables" as variable;
 
 footer{
-    background-color: black;
+    background-color: variable.$backround-color-darkmode; 
 }
 
 .foot {
@@ -11,9 +11,6 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
-        width: 30%;
-    }
     a {
         color: rgb(200, 200, 200);
     }

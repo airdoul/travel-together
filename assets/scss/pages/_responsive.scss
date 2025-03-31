@@ -1,0 +1,104 @@
+@use "../abstract/variables" as variable;
+
+
+
+@media screen and (min-width: 760px) {
+    #menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 760px) {
+body {
+    img {
+        max-width: none;
+        width: 40% ;
+    }
+    }
+    h2 , h3 , h4 , p {
+        text-align: center;
+    }
+
+    .logo {
+        img {
+            width: 45%;
+        }
+    }
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu {
+        border: solid 2px gray;
+        border-radius: 5px;
+        padding: 3px;
+        width: 30%;
+    }
+    .box-banner {
+        text-align: start;
+        p {
+            text-align: start;
+        }
+    }
+    #phone-img {
+        display: none;
+    }
+    .contact-menu {
+        display: none;
+    }
+    .contain {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 2%;
+    }
+    .containers-card {
+        flex-direction: column;
+        .card {
+            height: 60vh;
+        }
+    }
+    .containers-features {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .feature {
+        h2 {
+            text-align: center;
+        }
+        .features {
+            width: 100%;
+            padding: 15%;
+        }
+    }
+    .get-in {
+        background-image: none;
+    }
+    .boxes-get-in {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-get-in-touch {
+        padding: 1rem;
+        width: 100%;
+    }
+    .foot {
+        flex-direction: column;
+        align-items: center;
+        .contact {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #reseaux {
+        width: 100px;
+    }
+}

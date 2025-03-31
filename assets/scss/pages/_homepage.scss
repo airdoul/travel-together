@@ -13,7 +13,7 @@
 }
 
     .containers-card {
-        height: 50vh;
+        min-height: 50vh;
         width: 100%;
         display: flex;
         gap: 0.5rem;
@@ -66,10 +66,10 @@
             text-align: right;
             margin-bottom: 2rem;
         }
-        h4{
+        h4 {
             margin: 0.5rem;
         }
-        p{
+        p {
             text-align: center;
         }
         .containers-features {
